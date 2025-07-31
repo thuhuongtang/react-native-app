@@ -1,0 +1,14 @@
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import './app/globals.css'
+import AppNavigator from './app/navigation/AppNavigator'
+
+const App = () => {
+  return (
+    <NavigationContainer>
+        <AppNavigator />
+    </NavigationContainer>
+  )
+}
+
+export default App
